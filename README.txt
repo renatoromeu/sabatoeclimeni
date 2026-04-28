@@ -26,7 +26,7 @@ DEPLOY (LOCAWEB / HOSTGATOR)
 FORMULÁRIO DE CONTATO (Web3Forms)
 ----------------------------------
 1. Acesse https://web3forms.com
-2. Insira o e-mail gprorenato@gmail.com (depois mude para o do consultório)
+2. Insira o e-mail ****************** (depois mude para o do consultório)
 3. Eles enviarão uma chave (access_key)
 4. Abra index.html
 5. Procure: SUA_CHAVE_WEB3FORMS_AQUI
@@ -63,9 +63,9 @@ Registre em registro.br ou direto no painel da Locaweb.
 WHATSAPP / E-MAIL / ENDEREÇO
 ----------------------------
 Configurações atuais (todas para teste — alterar depois):
-• WhatsApp: (11) 99452-8234 → buscar no index.html por "5511994528234"
+• WhatsApp: ******************  → buscar no index.html por "******************"
 • E-mail: contato@sabatoeclimeni.com.br → buscar no index.html
-• Endereço: Rua Pio XI, 1734 → buscar no index.html
+• Endereço: ******************  → buscar no index.html
 
 NAVEGADORES TESTADOS
 --------------------
@@ -84,4 +84,3 @@ PRÓXIMOS PASSOS SUGERIDOS
 
 DÚVIDAS
 -------
-Qualquer ajuste, é só pedir.
