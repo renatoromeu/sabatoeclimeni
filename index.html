@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sabato & Climeni — Psicologia Clínica desde 1981</title>
+  <meta name="description" content="Consultório de psicologia clínica em São Paulo. Atendimento de crianças, adolescentes e adultos em orientação freudiana. Mais de 40 anos de experiência.">
+  <meta name="keywords" content="psicologia, psicanálise, Freud, Lacan, São Paulo, Alto de Pinheiros, Sabato, Climeni, terapia">
+  <meta property="og:title" content="Sabato & Climeni — Psicologia Clínica">
+  <meta property="og:description" content="Mais de 40 anos cuidando da saúde mental de crianças, adolescentes e adultos em São Paulo.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#home" class="header__logo">
+        <img src="img/logo_original.png" alt="Sabato &amp; Climeni">
+      </a>
+      <button class="header__toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" aria-label="Principal">
+        <ul>
+          <li><a href="#home" class="nav__link active">Home</a></li>
+          <li><a href="#sobre" class="nav__link">Sobre</a></li>
+          <li><a href="#servicos" class="nav__link">Serviços</a></li>
+          <li><a href="#profissionais" class="nav__link">Profissionais</a></li>
+          <li><a href="#contato" class="nav__link">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero__bg" aria-hidden="true">
+      <svg viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid slice">
+        <defs>
+          <linearGradient id="heroGrad" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#5FBFCD"/>
+            <stop offset="100%" stop-color="#3FA0B0"/>
+          </linearGradient>
+        </defs>
+        <rect width="1200" height="600" fill="url(#heroGrad)"/>
+        <g stroke="rgba(255,255,255,0.45)" stroke-width="2" fill="none">
+          <circle cx="180" cy="320" r="80"/>
+          <path d="M180 240 Q140 280 130 320 Q140 360 180 400 Q220 360 230 320 Q220 280 180 240 Z"/>
+          <circle cx="180" cy="305" r="22"/>
+          <path d="M170 290 L170 285 Q180 280 190 285 L190 290 M178 327 L182 327"/>
+          <circle cx="320" cy="240" r="100"/>
+          <path d="M320 140 Q260 200 245 240 Q260 290 320 350 Q380 290 395 240 Q380 200 320 140 Z"/>
+          <circle cx="320" cy="220" r="32"/>
+          <circle cx="320" cy="220" r="20"/>
+          <path d="M315 200 L315 195 Q320 190 325 195 L325 200 M315 248 L325 248 M313 252 L327 252"/>
+        </g>
+      </svg>
+    </div>
+    <div class="container hero__content">
+      <h1 class="hero__title">Cuidar da mente <br><span>é um ato de coragem.</span></h1>
+      <p class="hero__subtitle">Psicologia clínica de orientação freudiana em São Paulo. Mais de quatro décadas escutando e acolhendo crianças, adolescentes e adultos.</p>
+      <a href="#contato" class="btn btn--outline">Agende uma conversa</a>
+    </div>
+  </section>
+
+  <!-- PILARES -->
+  <section class="pilares" aria-label="Pilares do nosso cuidado">
+    <div class="container">
+      <div class="pilares__grid">
+        <article class="pilar-card" data-reveal>
+          <div class="pilar-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M32 12c-6 6-10 12-10 18a10 10 0 0020 0c0-6-4-12-10-18z"/>
+              <path d="M22 38c-3 2-5 6-5 10M42 38c3 2 5 6 5 10M32 40v14"/>
+            </svg>
+          </div>
+          <h3>Escuta</h3>
+          <p>Antes de qualquer técnica, há uma escuta. Recebemos a palavra de quem chega sem pressa, sem julgamento e sem fórmulas prontas.</p>
+          <a href="#contato" class="pilar-card__link">Saiba mais →</a>
+        </article>
+
+        <article class="pilar-card pilar-card--dark" data-reveal>
+          <div class="pilar-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="32" cy="22" r="8"/>
+              <path d="M16 52c2-8 8-12 16-12s14 4 16 12"/>
+              <path d="M22 16l-4-4M42 16l4-4M32 8V4"/>
+            </svg>
+          </div>
+          <h3>Acolhimento</h3>
+          <p>Cada história tem seu tempo e seu modo. Construímos um espaço onde é possível dizer aquilo que, em outros lugares, não encontra lugar.</p>
+          <a href="#contato" class="pilar-card__link">Saiba mais →</a>
+        </article>
+
+        <article class="pilar-card" data-reveal>
+          <div class="pilar-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M32 50c-10-6-18-14-18-22a8 8 0 0114-5 8 8 0 0114 5c0 8-8 16-18 22z" stroke-linejoin="round"/>
+              <path d="M20 22h6M38 22h6" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Continuidade</h3>
+          <p>O processo terapêutico é uma travessia. Caminhamos com cada paciente o quanto for preciso — respeitando o ritmo singular de cada elaboração.</p>
+          <a href="#contato" class="pilar-card__link">Saiba mais →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre" class="sobre">
+    <div class="container sobre__inner">
+      <div class="sobre__text" data-reveal>
+        <span class="eyebrow">Sobre nós</span>
+        <h2>Mais de 40 anos dedicados ao cuidado psíquico.</h2>
+        <p>Fundado em 1981, o consultório <strong>Sabato &amp; Climeni</strong> nasceu da convergência de duas trajetórias dedicadas à psicanálise. Ao longo de quatro décadas, recebemos gerações de famílias, formando vínculos clínicos que atravessam o tempo.</p>
+        <p>Trabalhamos a partir da escuta freudiana — uma clínica que reconhece a singularidade de cada sujeito e a complexidade dos sintomas contemporâneos. Atendemos crianças, adolescentes e adultos, presencialmente em Alto de Pinheiros e também em modalidade online.</p>
+        <div class="sobre__highlights">
+          <div class="highlight">
+            <span class="highlight__num">40+</span>
+            <span class="highlight__label">anos de prática clínica</span>
+          </div>
+          <div class="highlight">
+            <span class="highlight__num">3</span>
+            <span class="highlight__label">gerações atendidas</span>
+          </div>
+        </div>
+        <a href="#contato" class="btn btn--primary">Entre em contato</a>
+      </div>
+      <div class="sobre__image" data-reveal>
+        <img src="img/psicologa.webp" alt="Profissional acolhedora">
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVIÇOS / ARTIGOS -->
+  <section id="servicos" class="servicos">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <span class="eyebrow">Conteúdo &amp; cuidado</span>
+        <h2>Reflexões da <strong>clínica psicanalítica</strong></h2>
+        <div class="section-header__divider"></div>
+        <p>Textos pensados para tornar mais acessíveis temas que atravessam o consultório no dia a dia. Conteúdo informativo, jamais substituto da escuta clínica.</p>
+      </div>
+
+      <div class="servicos__grid">
+        <article class="article-card" data-reveal data-article="1">
+          <div class="article-card__icon"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="14" y="12" width="36" height="44" rx="2"/><path d="M22 22h20M22 30h20M22 38h14"/></svg></div>
+          <h3>Sinais de abuso emocional na infância</h3>
+          <p>Como identificar marcas silenciosas que crianças carregam — e por que a escuta atenta dos pais é o primeiro passo.</p>
+          <button class="article-card__link" data-open-article="1">Ler artigo →</button>
+        </article>
+
+        <article class="article-card" data-reveal data-article="2">
+          <div class="article-card__icon"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 50h36M20 50V32M28 50V24M36 50V28M44 50V20"/><circle cx="44" cy="14" r="3"/></svg></div>
+          <h3>Burnout: o adoecimento pelo trabalho</h3>
+          <p>Quando o corpo e a mente dizem basta. Entenda a síndrome do esgotamento e os caminhos para a reconstrução.</p>
+          <button class="article-card__link" data-open-article="2">Ler artigo →</button>
+        </article>
+
+        <article class="article-card" data-reveal data-article="3">
+          <div class="article-card__icon"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M32 14L20 32l12 18 12-18z"/><circle cx="32" cy="32" r="4"/></svg></div>
+          <h3>Altas habilidades na infância</h3>
+          <p>Crianças com alto potencial cognitivo enfrentam desafios próprios. Como reconhecer, acolher e nutrir esse modo de existir.</p>
+          <button class="article-card__link" data-open-article="3">Ler artigo →</button>
+        </article>
+
+        <article class="article-card" data-reveal data-article="4">
+          <div class="article-card__icon"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="32" cy="32" r="18"/><path d="M32 14v36M14 32h36"/></svg></div>
+          <h3>Adolescência: travessia e crise</h3>
+          <p>O jovem como sujeito em construção. Lacan e a delicada passagem pela puberdade do desejo.</p>
+          <button class="article-card__link" data-open-article="4">Ler artigo →</button>
+        </article>
+
+        <article class="article-card" data-reveal data-article="5">
+          <div class="article-card__icon"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M32 50c-10-8-18-16-18-26a10 10 0 0118-6 10 10 0 0118 6c0 10-8 18-18 26z"/></svg></div>
+          <h3>Luto e elaboração das perdas</h3>
+          <p>Freud e o trabalho psíquico do luto. Por que perder demanda tempo — e quando o luto se torna melancolia.</p>
+          <button class="article-card__link" data-open-article="5">Ler artigo →</button>
+        </article>
+
+        <article class="article-card" data-reveal data-article="6">
+          <div class="article-card__icon"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 40c4-4 8-4 12 0s8 4 12 0 8-4 12 0M16 28c4-4 8-4 12 0s8 4 12 0 8-4 12 0"/></svg></div>
+          <h3>Ansiedade contemporânea</h3>
+          <p>O mal-estar do nosso tempo: aceleração, hiperconexão e a perda do silêncio interior. O que a psicanálise pode oferecer.</p>
+          <button class="article-card__link" data-open-article="6">Ler artigo →</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROFISSIONAIS -->
+  <section id="profissionais" class="profissionais">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <span class="eyebrow">Quem somos</span>
+        <h2>Nossas <strong>psicólogas</strong></h2>
+        <div class="section-header__divider"></div>
+        <p>Trajetórias dedicadas à clínica psicanalítica e ao cuidado com cada singularidade.</p>
+      </div>
+
+      <div class="profissionais__grid">
+        <article class="psi-card" data-reveal data-psi="valeria">
+          <div class="psi-card__photo">
+            <img src="img/valeria.png" alt="Valéria Russano de Castro Climeni">
+          </div>
+          <div class="psi-card__info">
+            <span class="psi-card__role">Psicanalista · Sócia-fundadora</span>
+            <h3>Valéria Russano de Castro Climeni</h3>
+            <span class="psi-card__crp">CRP 06/12402</span>
+            <button class="btn btn--text" data-open-psi="valeria">Ver perfil completo →</button>
+          </div>
+        </article>
+
+        <article class="psi-card" data-reveal data-psi="lucia">
+          <div class="psi-card__photo">
+            <img src="img/lucia.png" alt="Lúcia Helena Oliveira Sabato">
+          </div>
+          <div class="psi-card__info">
+            <span class="psi-card__role">Psicanalista · Sócia</span>
+            <h3>Lúcia Helena Oliveira Sabato</h3>
+            <span class="psi-card__crp">CRP 06/24335</span>
+            <button class="btn btn--text" data-open-psi="lucia">Ver perfil completo →</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="contato">
+    <div class="container contato__inner">
+      <div class="contato__image" data-reveal>
+        <img src="img/splash.png" alt="">
+      </div>
+      <div class="contato__form-wrap" data-reveal>
+        <span class="eyebrow">Vamos conversar</span>
+        <h2>Estamos prontas para escutar.</h2>
+        <p>Preencha o formulário e retornaremos em até um dia útil. Para urgências, utilize o WhatsApp ao lado.</p>
+        <form id="contactForm" class="form" novalidate>
+          <input type="hidden" name="access_key" value="SUA_CHAVE_WEB3FORMS_AQUI">
+          <input type="hidden" name="subject" value="Novo contato pelo site Sabato & Climeni">
+          <input type="hidden" name="from_name" value="Site Sabato & Climeni">
+          <input type="checkbox" name="botcheck" style="display:none">
+
+          <div class="form__row">
+            <div class="form__group">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="form__group">
+              <label for="sobrenome">Sobrenome</label>
+              <input type="text" id="sobrenome" name="sobrenome" required>
+            </div>
+          </div>
+          <div class="form__row">
+            <div class="form__group">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form__group">
+              <label for="telefone">Telefone</label>
+              <input type="tel" id="telefone" name="telefone" required>
+            </div>
+          </div>
+          <div class="form__group">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary">Enviar mensagem</button>
+          <p class="form__status" id="formStatus" role="status"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BAR -->
+  <section class="cta-bar">
+    <div class="container cta-bar__inner">
+      <div class="cta-bar__text">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        <p>Atendemos presencialmente em Alto de Pinheiros e também em modalidade online. <strong>(11) 99452-8234</strong></p>
+      </div>
+      <a href="https://wa.me/5511994528234" class="btn btn--white" target="_blank" rel="noopener">Falar pelo WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img src="img/logo_original.png" alt="Sabato &amp; Climeni">
+        <p>Consultório de psicologia clínica em São Paulo. Atendimento de orientação freudiana para crianças, adolescentes e adultos desde 1981.</p>
+      </div>
+      <div class="footer__col">
+        <h4>Endereço</h4>
+        <p>Rua Pio XI, 1734<br>Alto de Pinheiros<br>São Paulo · SP</p>
+      </div>
+      <div class="footer__col">
+        <h4>Contato</h4>
+        <p>(11) 99452-8234<br>contato@sabatoeclimeni.com.br</p>
+        <p>Atendimento sob agendamento.<br>Convênios sob consulta.</p>
+      </div>
+      <div class="footer__col">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#profissionais">Profissionais</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>© 2026 Sabato &amp; Climeni. Todos os direitos reservados.</p>
+        <ul>
+          <li><button class="link-btn" data-open-article="privacidade">Política de Privacidade</button></li>
+          <li><button class="link-btn" data-open-article="termos">Termos &amp; Condições</button></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLOATING -->
+  <a href="https://wa.me/5511994528234?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20consult%C3%B3rio." class="whatsapp-float" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 32 32" fill="currentColor"><path d="M16 3C9 3 3 9 3 16c0 2 .5 4 1.5 6L3 29l7-2c2 1 4 1.5 6 1.5 7 0 13-6 13-13S23 3 16 3zm0 23c-2 0-4-.5-5.5-1.5l-.5-.3-4 1 1-4-.3-.5C5.5 19 5 17.5 5 16c0-6 5-11 11-11s11 5 11 11-5 10-11 10zm6-8c-.3-.2-2-1-2.3-1.1-.3-.1-.5-.2-.8.2s-.9 1.1-1 1.3c-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-2-1.8-2.3-.2-.3 0-.5.1-.6l.5-.5c.2-.2.2-.3.4-.5.1-.2.1-.4 0-.5l-1-2.3c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.2 3.4 5.4 4.7.7.3 1.3.5 1.8.6.7.2 1.4.2 2 .1.6-.1 1.9-.8 2.2-1.5.3-.8.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4z"/></svg>
+  </a>
+
+  <!-- COOKIE BANNER -->
+  <div class="cookie-banner" id="cookieBanner" hidden>
+    <div class="container cookie-banner__inner">
+      <p>Utilizamos cookies essenciais para o funcionamento do site. Ao continuar navegando, você concorda com nossa <button class="link-btn" data-open-article="privacidade">Política de Privacidade</button>.</p>
+      <button class="btn btn--primary btn--small" id="cookieAccept">Concordar</button>
+    </div>
+  </div>
+
+  <!-- MODAL -->
+  <div class="modal" id="modal" hidden aria-modal="true" role="dialog">
+    <div class="modal__overlay" data-close-modal></div>
+    <div class="modal__content">
+      <button class="modal__close" data-close-modal aria-label="Fechar">×</button>
+      <div class="modal__body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
